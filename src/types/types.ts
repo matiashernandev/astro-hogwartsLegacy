@@ -3,3 +3,8 @@ export interface MenuItem {
   url: string;
   icon?: string;
 }
+export interface CardItem {
+  title: string;
+  image: string;
+  description: string;
+}
